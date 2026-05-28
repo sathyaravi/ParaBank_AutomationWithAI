@@ -9,18 +9,20 @@ comprehensive test coverage for login, account overview, and funds transfer func
 
 ## 📋 Table of Contents
 
-- [Features](#-features)
-- [Project Structure](#-project-structure)
-- [Prerequisites](#-prerequisites)
-- [Installation](#-installation)
-- [Configuration](#-configuration)
-- [Running Tests](#-running-tests)
-- [Test Coverage](#-test-coverage)
-- [Architecture & Design Patterns](#-architecture--design-patterns)
-- [Code Documentation Standards](#-code-documentation-standards)
-- [Reporting](#-reporting)
-- [Troubleshooting](#-troubleshooting)
-- [Future Enhancements](#-future-enhancements)
+## 📋 Table of Contents
+
+## Features
+## Project Structure
+## Prerequisites
+## Installation
+## Configuration
+## Running Tests
+## Test Coverage
+## Architecture and Design Patterns
+## Code Documentation Standards
+## Reporting
+## Troubleshooting
+## Future Enhancements
 
 ---
 
