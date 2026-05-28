@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-28T11:33:23 PDT" name="ParaBank Suite" finished-at="2026-05-28T11:33:44 PDT" duration-ms="21180">
+    <groups>
+    </groups>
+    <test started-at="2026-05-28T11:33:23 PDT" name="Login Tests" finished-at="2026-05-28T11:33:44 PDT" duration-ms="21180">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-28T11:33:23 PDT" name="setup" finished-at="2026-05-28T11:33:26 PDT" duration-ms="2697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPageTest(com.fasterxml.jackson.databind.JsonNode)[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-28T11:33:26 PDT" name="loginPageTest" data-provider="loginData" finished-at="2026-05-28T11:33:27 PDT" duration-ms="1476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"testName":"Valid Login","username":"john","password":"demo"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-28T11:33:27 PDT" name="tearDown" finished-at="2026-05-28T11:33:28 PDT" duration-ms="402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-28T11:33:28 PDT" name="setup" finished-at="2026-05-28T11:33:30 PDT" duration-ms="2511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPageTest(com.fasterxml.jackson.databind.JsonNode)[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-28T11:33:30 PDT" name="loginPageTest" data-provider="loginData" finished-at="2026-05-28T11:33:31 PDT" duration-ms="1041" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"testName":"Invalid Login","username":"invalid","password":"wrong"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-28T11:33:31 PDT" name="tearDown" finished-at="2026-05-28T11:33:32 PDT" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.AccountsOverviewTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AccountsOverviewTest@4082ba93]" started-at="2026-05-28T11:33:32 PDT" name="setup" finished-at="2026-05-28T11:33:34 PDT" duration-ms="2478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="accountsOverviewDisplaysCorrectly()[pri:0, instance:tests.AccountsOverviewTest@4082ba93]" started-at="2026-05-28T11:33:34 PDT" name="accountsOverviewDisplaysCorrectly" finished-at="2026-05-28T11:33:36 PDT" duration-ms="2148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountsOverviewDisplaysCorrectly -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AccountsOverviewTest@4082ba93]" started-at="2026-05-28T11:33:36 PDT" name="tearDown" finished-at="2026-05-28T11:33:36 PDT" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AccountsOverviewTest -->
+      <class name="tests.FundsTransferTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FundsTransferTest@17fc391b]" started-at="2026-05-28T11:33:37 PDT" name="setup" finished-at="2026-05-28T11:33:39 PDT" duration-ms="2061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="positiveFundsTransfer()[pri:1, instance:tests.FundsTransferTest@17fc391b]" started-at="2026-05-28T11:33:39 PDT" name="positiveFundsTransfer" finished-at="2026-05-28T11:33:44 PDT" duration-ms="5243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveFundsTransfer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FundsTransferTest@17fc391b]" started-at="2026-05-28T11:33:44 PDT" name="tearDown" finished-at="2026-05-28T11:33:44 PDT" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FundsTransferTest -->
+    </test> <!-- Login Tests -->
+  </suite> <!-- ParaBank Suite -->
+</testng-results>

@@ -1,0 +1,12 @@
+[
+  {
+    "testName": "Valid Login",
+    "username": "john",
+    "password": "demo"
+  },
+  {
+    "testName": "Invalid Login",
+    "username": "invalid",
+    "password": "wrong"
+  }
+]

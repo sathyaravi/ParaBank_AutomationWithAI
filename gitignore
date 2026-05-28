@@ -1,0 +1,64 @@
+# ══════════════════════════════════════════════════════════════════
+#  .gitignore — ParaBank Automation Framework
+#  Selenium WebDriver | TestNG | Maven | Extent Reports
+# ══════════════════════════════════════════════════════════════════
+
+
+# ── Maven build output ────────────────────────────────────────────
+target/
+*.jar
+*.war
+*.class
+
+
+# ── Extent Reports output ─────────────────────────────────────────
+# Generated at runtime — never commit HTML reports or screenshots.
+# Recipients should run the suite locally to generate fresh reports.
+reports/
+
+
+# ── TestNG default output ─────────────────────────────────────────
+test-output/
+
+
+# ── Logs ──────────────────────────────────────────────────────────
+logs/
+*.log
+
+
+# ── IntelliJ IDEA ─────────────────────────────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+
+# ── Eclipse ───────────────────────────────────────────────────────
+.classpath
+.project
+.settings/
+bin/
+
+
+# ── VS Code ───────────────────────────────────────────────────────
+.vscode/
+
+
+# ── macOS ─────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# ── Windows ───────────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+
+# ── Sensitive configuration ───────────────────────────────────────
+# Uncomment the line below if config.properties ever holds real
+# credentials or tokens (e.g. GoRest bearer token).
+# Keep it commented for ParaBank — john/demo is public demo data.
+# src/main/resources/config.properties
